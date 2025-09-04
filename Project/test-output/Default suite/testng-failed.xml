@@ -5,8 +5,7 @@
     <classes>
       <class name="New_Selenium.Project.StandAloneTest">
         <methods>
-          <include name="makeAppointment"/>
-          <include name="makeAppointment3"/>
+          <include name="makeAppointment2"/>
           <include name="setup"/>
         </methods>
       </class> <!-- New_Selenium.Project.StandAloneTest -->

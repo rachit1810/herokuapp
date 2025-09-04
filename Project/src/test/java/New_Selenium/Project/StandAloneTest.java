@@ -323,5 +323,14 @@ public class StandAloneTest
 			driver.close();
 		}
 		
+		@Test
+		public void menu()
+		{
+			driver.get(url);
+			
+			driver.findElement(By.xpath("//a[@id=\"menu-toggle\"]")).click();
+			
+		}
+		
 	}
 
